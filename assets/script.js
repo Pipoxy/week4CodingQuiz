@@ -165,7 +165,7 @@ function GetHighScore() {
 function storageScores() {
 
     localStorage.setItem('scores', JSON.stringify(scores));
-
+console.log(scores);
 }
 
 scoresButton.addEventListener('click', function () {

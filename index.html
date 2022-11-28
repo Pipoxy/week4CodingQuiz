@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div id="load-up-content">
+      <h1 id="quiz-challenge-h1">Coding Quiz Challenge</h1>
+
+      <p>
+        Try to answer the following code-related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your score/time
+        by ten seconds!
+      </p>
+
+      <button id="start-quiz" style="margin: 1rem">Start Quiz</button>
+    </div>
+
+    <h3 class="clock"></h3>
+
+    <div id="first-question">
+      <h2>Commonly used data types DO NOT include:</h2>
+      <button id="choice-1A">A: alerts</button>
+      <button id="choice-1B">B: booleans</button>
+      <button id="choice-1C">C: strings</button>
+      <button id="choice-1D">D: numbers</button>
+    </div>
+    <div id="second-question">
+      <h2>The condition in an if / else statement is enclosed with _____.</h2>
+      <button id="choice-2A">A: quotes</button>
+      <button id="choice-2B">B: curly brackets</button>
+      <button id="choice-2C">C: square brackets</button>
+      <button id="choice-2D">D: parenthesis</button>
+    </div>
+    <div id="third-question">
+      <h2>Arrays in JavaScript can be used to store _____.</h2>
+      <button id="choice-3A">A: numbers and strings</button>
+      <button id="choice-3B">B: other arrays</button>
+      <button id="choice-3C">C: booleans</button>
+      <button id="choice-3D">D: all of the above</button>
+    </div>
+    <div id="fourth-question">
+      <h2>
+        String values must be enclosed within _____ when being assigned to
+        variables.
+      </h2>
+      <button id="choice-4A">A: commas</button>
+      <button id="choice-4B">B: curly brackets</button>
+      <button id="choice-4C">C: quotes</button>
+      <button id="choice-4D">D: parenthesis</button>
+    </div>
+    <div id="fith-question">
+      <h2>
+        A very useful tool used during development and debugging for printing
+        content to the debugger is:
+      </h2>
+      <button id="choice-5A">A: JavaScript</button>
+      <button id="choice-5B">B: terminal/bash</button>
+      <button id="choice-5C">C: console.log</button>
+      <button id="choice-5D">D: for loops</button>
+    </div>
+
+    <div id="end-screen">
+      <h2 id="all-done">Game Over!</h2>
+
+      <p id="score">filler score</p>
+      <label for="user-name" id="label">Add your score to the list!</label>
+
+      <input
+        type="text"
+        name="user-name"
+        id="user-name"
+        placeholder="Enter your initials here"
+      />
+
+      <button id="submit" style="margin: 1rem">submit</button>
+
+      <h2 id="scores-list">Scores List</h2>
+      <ul id="highList"></ul>
+
+      <button id="back-button" style="margin: 1rem">Back to home screen</button>
+      <button id="scores-button" style="margin: 1rem">Scores List</button>
+    </div>
+
+    <div id="incorrect"></div>
+    <div id="correct"></div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
