@@ -11,3 +11,7 @@ In this project I had to make a coding quiz using JavaScript to make it function
 ## License
 
 MIT license
+
+## Deployed page
+
+https://pipoxy.github.io/week4CodingQuiz/
